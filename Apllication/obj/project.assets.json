@@ -2514,11 +2514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Latest Version - Mohamed Ali\\UWC\\Apllication\\Apllication.csproj",
+      "projectUniqueName": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\Apllication\\Apllication.csproj",
       "projectName": "Apllication",
-      "projectPath": "F:\\Latest Version - Mohamed Ali\\UWC\\Apllication\\Apllication.csproj",
+      "projectPath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\Apllication\\Apllication.csproj",
       "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
-      "outputPath": "F:\\Latest Version - Mohamed Ali\\UWC\\Apllication\\obj\\",
+      "outputPath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\Apllication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2538,11 +2538,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Latest Version - Mohamed Ali\\UWC\\BLL\\BLL.csproj": {
-              "projectPath": "F:\\Latest Version - Mohamed Ali\\UWC\\BLL\\BLL.csproj"
+            "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\BLL\\BLL.csproj": {
+              "projectPath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\BLL\\BLL.csproj"
             },
-            "F:\\Latest Version - Mohamed Ali\\UWC\\DAL\\DAL.csproj": {
-              "projectPath": "F:\\Latest Version - Mohamed Ali\\UWC\\DAL\\DAL.csproj"
+            "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\DAL\\DAL.csproj": {
+              "projectPath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\DAL\\DAL.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a0eERciZP8zPYZse/xgtAQ5HsQ2vr9HioVxPZpvJfAOQR+J9DTTKRtRLpHsrjjsg/71Jifrhb6mdzKX6+Y3FNA==",
+  "dgSpecHash": "qS40SsLTcLsuAIlmmmVvBh1WuEwWin/lykkJ/nJJKxR2I3Vau7NK+ft7NcfIZ7kf7kld7ZrAXODenn80OQA7iA==",
   "success": true,
-  "projectFilePath": "F:\\Latest Version - Mohamed Ali\\UWC\\UWC\\UWC.csproj",
+  "projectFilePath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\UWC\\UWC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

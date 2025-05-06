@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wc61lT/8I6Kzqm1JrrM3FmnJiA1QjW5kLDa6IecdZe0CUpVtRTwxr+/2qktjGIwy5sknEH+U/BskHQjER6EAJw==",
+  "dgSpecHash": "zZ1dAh2iGSjJkeBrDEdgz/RMlFAptoTcCLg6AUM2rK0M5oK8IzorAghmW+G5BF87CUxpuKC7eyrEGhf5j56IUA==",
   "success": true,
-  "projectFilePath": "F:\\Latest Version - Mohamed Ali\\UWC\\BLL\\BLL.csproj",
+  "projectFilePath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
