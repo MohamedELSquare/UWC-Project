@@ -1,0 +1,31 @@
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\bin\Debug\net6.0\BLL.deps.json
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\bin\Debug\net6.0\BLL.dll
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\bin\Debug\net6.0\BLL.pdb
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\bin\Debug\net6.0\DAL.dll
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\bin\Debug\net6.0\DAL.pdb
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.sourcelink.json
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.csproj.Up2Date
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.dll
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\refint\BLL.dll
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\BLL.pdb
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\BLL\obj\Debug\net6.0\ref\BLL.dll
+F:\Latest Version - Mohamed Ali\UWC\BLL\bin\Debug\net6.0\BLL.deps.json
+F:\Latest Version - Mohamed Ali\UWC\BLL\bin\Debug\net6.0\BLL.dll
+F:\Latest Version - Mohamed Ali\UWC\BLL\bin\Debug\net6.0\BLL.pdb
+F:\Latest Version - Mohamed Ali\UWC\BLL\bin\Debug\net6.0\DAL.dll
+F:\Latest Version - Mohamed Ali\UWC\BLL\bin\Debug\net6.0\DAL.pdb
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\BLL.dll
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\refint\BLL.dll
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\BLL.pdb
+F:\Latest Version - Mohamed Ali\UWC\BLL\obj\Debug\net6.0\ref\BLL.dll

@@ -1,0 +1,44 @@
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\bin\Release\net6.0\DAL.runtimeconfig.json
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.sourcelink.json
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\EL2\UWC\UWC\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\bin\Release\net6.0\DAL.runtimeconfig.json
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.sourcelink.json
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
+C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\DAL\obj\Release\net6.0\ref\DAL.dll
+F:\Latest Version - Mohamed Ali\UWC\DAL\bin\Release\net6.0\DAL.deps.json
+F:\Latest Version - Mohamed Ali\UWC\DAL\bin\Release\net6.0\DAL.runtimeconfig.json
+F:\Latest Version - Mohamed Ali\UWC\DAL\bin\Release\net6.0\DAL.dll
+F:\Latest Version - Mohamed Ali\UWC\DAL\bin\Release\net6.0\DAL.pdb
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\DAL.dll
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\refint\DAL.dll
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\DAL.pdb
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
+F:\Latest Version - Mohamed Ali\UWC\DAL\obj\Release\net6.0\ref\DAL.dll

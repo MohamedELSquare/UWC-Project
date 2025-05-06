@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "Apllication.Controllers.SignalController",
+    "Method": "Signal",
+    "RelativePath": "Signal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MoveDetected",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

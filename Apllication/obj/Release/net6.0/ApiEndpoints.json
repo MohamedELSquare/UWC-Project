@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "GetAllUnPairdJopOrders",
+    "RelativePath": "api/JobOrders/GetJobOrdersWithPallets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GaetAllPalletsdPerState",
+    "RelativePath": "api/Pallets/GaetAllPalletsdPerState",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GetPalletsList",
+    "RelativePath": "api/Pallets/GetPalletsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "GetAllWarehouses",
+    "RelativePath": "api/Warehouses/GetAllWarehouses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SignalController",
+    "Method": "Signal",
+    "RelativePath": "Signal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MoveDetected",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SignalController",
+    "Method": "Status",
+    "RelativePath": "Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GateName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

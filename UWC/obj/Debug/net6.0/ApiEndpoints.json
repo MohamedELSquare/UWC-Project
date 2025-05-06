@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "UWC.Controllers.SignalController",
+    "Method": "GetData",
+    "RelativePath": "api/Signal/GetDataTry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
