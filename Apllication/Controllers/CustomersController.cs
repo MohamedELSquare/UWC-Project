@@ -61,7 +61,7 @@ namespace Apllication.Controllers
             var result = new GetCustomerDto
             {
                 Id = customer.Id,
-                Name = customer.Name,
+                CustomerName = customer.Name,
                 Location = customer.Location,
                 Contract = customer.Contract,
                 Warehouses = customer.Warehouses?.Select(w => w.Name).ToList() ?? new List<string>()
