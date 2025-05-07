@@ -5,7 +5,8 @@
         public int Id { get; set; }
         public string? Serial { get; set; }
         public string UID { get; set; }
-        public string Status { get; set; }
+        public int Status { get; set; }
+        public string StatusName { get; set; }
         public DateTime? BirthDate { get; set; }
         public string? WarehouseName { get; set; }
 

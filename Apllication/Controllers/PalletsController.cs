@@ -52,7 +52,8 @@ namespace Apllication.Controllers
                 Id = p.Id,
                 Serial = p.Serial,
                 UID = p.UID,
-                Status = p.Status.ToString(),
+                Status = (int)p.Status,
+                StatusName = p.Status.ToString(),
                 BirthDate = p.BirthDate,
                 WarehouseName = p.DWarehouse?.Name,
 
@@ -79,7 +80,8 @@ namespace Apllication.Controllers
                 Id = p.Id,
                 Serial = p.Serial,
                 UID = p.UID,
-                Status = p.Status.ToString(),
+                Status = (int)p.Status,
+                StatusName = p.Status.ToString(),
                 BirthDate = p.BirthDate,
                 WarehouseName = p.DWarehouse?.Name,
 
@@ -105,7 +107,8 @@ namespace Apllication.Controllers
                     Id = p.Id,
                     Serial = p.Serial,
                     UID = p.UID,
-                    Status = p.Status.ToString(),
+                    Status = (int)p.Status,
+                    StatusName = p.Status.ToString(),
                     BirthDate = p.BirthDate,
                     WarehouseName = p.DWarehouse?.Name,
 
@@ -135,7 +138,8 @@ namespace Apllication.Controllers
                 Id = pallet.Id,
                 Serial = pallet.Serial,
                 UID = pallet.UID,
-                Status = pallet.Status.ToString(),
+                Status = (int)pallet.Status,
+                StatusName = pallet.Status.ToString(),
                 BirthDate = pallet.BirthDate,
                 WarehouseName = pallet.DWarehouse?.Name,
 

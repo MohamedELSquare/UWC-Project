@@ -9,6 +9,7 @@ namespace BLL.Services
         Task AddAsync(DCustomer customer);
         Task UpdateAsync(DCustomer customer);
         Task DeleteAsync(int id);
+        Task<bool> DeleteAsyncWithCheck(int id);
     }
 
 }

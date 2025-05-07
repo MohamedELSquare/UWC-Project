@@ -104,8 +104,8 @@ namespace Apllication.Controllers
             return Ok("Updated");
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        [HttpDelete("OldDelete/{id}")]
+        public async Task<IActionResult> DeleteOld(int id)
         {
             var customer = await _customerService.GetByIdAsync(id);
             if (customer == null)
@@ -114,5 +114,23 @@ namespace Apllication.Controllers
             await _customerService.DeleteAsync(id);
             return Ok("Deleted");
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteWithCheck(int id)
+        {
+            var customer = await _customerService.GetByIdAsync(id);
+            if (customer == null)
+                return NotFound("Customer not found");
+
+            var isDeleted = await _customerService.DeleteAsyncWithCheck(id);
+            if (!isDeleted)
+            {
+                return BadRequest("Customer has linked data (e.g. Warehouses, SubCustomers). Please delete the linked data first.");
+            }
+
+            return Ok("Customer deleted successfully.");
+        }
+
+
     }
 }
