@@ -25,7 +25,7 @@ namespace Apllication.Controllers
             var result = customers.Select(c => new GetCustomerListDto
             {
                 Id = c.Id,
-                Name = c.Name,
+                CustomerName = c.Name,
                 Location = c.Location,
                 Contract = c.Contract,
                 Warehouses = c.Warehouses?.Select(w => w.Name).ToList() ?? new List<string>()
@@ -96,7 +96,7 @@ namespace Apllication.Controllers
             if (customer == null)
                 return NotFound("Customer not found");
 
-            customer.Name = customerDto.Name;
+            customer.Name = customerDto.CustomerName;
             customer.Location = customerDto.Location;
             customer.Contract = customerDto.Contract;
 

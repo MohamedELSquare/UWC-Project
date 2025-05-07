@@ -38,7 +38,8 @@ namespace Apllication.Controllers
             {
                 Id = w.Id,
                 Code = w.Code ?? "",
-                Name = w.Name ?? "",
+                WarehouseName = w.Name ?? "",
+                CustomerId = w.CustomerId,
                 CustomerName = w.Customer?.Name ?? "",
                 Location = w.Location ?? "",
                 GateNames = w.Gates?.Select(g => g.Name).ToList() ?? new List<string>(),
@@ -66,7 +67,8 @@ namespace Apllication.Controllers
             {
                 Id = warehouse.Id,
                 Code = warehouse.Code ?? "",
-                Name = warehouse.Name ?? "",
+                WarehouseName = warehouse.Name ?? "",
+                CustomerId = warehouse.CustomerId,
                 CustomerName = warehouse.Customer?.Name ?? "",
                 Location = warehouse.Location ?? "",
                 GateNames = warehouse.Gates?.Select(g => g.Name).ToList() ?? new List<string>(),
@@ -95,7 +97,8 @@ namespace Apllication.Controllers
             {
                 Id = w.Id,
                 Code = w.Code ?? "",
-                Name = w.Name ?? "",
+                WarehouseName = w.Name ?? "",
+                CustomerId = w.CustomerId,
                 CustomerName = w.Customer?.Name ?? "",
                 Location = w.Location ?? "",
                 GateNames = w.Gates?.Select(g => g.Name).ToList() ?? new List<string>(),
