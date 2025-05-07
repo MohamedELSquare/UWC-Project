@@ -40,7 +40,8 @@ namespace Apllication.Controllers
                 Id = j.Id,
                 Code = j.Code,
                 DestinationCustomer = j.DestinationCustomer,
-                Quantity = j.Quantity,
+                //Quantity = j.Quantity,
+                Quantity = j.Pallets.Count(),
                 ProductName = j.ProductName,
                 Manufacturer = j.Manufacturer,
                 SubCustomerId = j.SubCustomer?.Id,
@@ -62,7 +63,8 @@ namespace Apllication.Controllers
                 Id = jobOrder.Id,
                 Code = jobOrder.Code,
                 DestinationCustomer = jobOrder.DestinationCustomer,
-                Quantity = jobOrder.Quantity,
+                //Quantity = jobOrder.Quantity,
+                Quantity = jobOrder.Pallets.Count(),
                 ProductName = jobOrder.ProductName,
                 Manufacturer = jobOrder.Manufacturer,
                 SubCustomerId = jobOrder.SubCustomer?.Id,
@@ -84,7 +86,8 @@ namespace Apllication.Controllers
                     Id = j.Id,
                     Code = j.Code,
                     DestinationCustomer = j.DestinationCustomer,
-                    Quantity = j.Quantity,
+                    //Quantity = j.Quantity,
+                    Quantity = j.Pallets.Count(),
                     ProductName = j.ProductName,
                     Manufacturer = j.Manufacturer,
                     SubCustomerId = j.SubCustomerId,
@@ -162,7 +165,6 @@ namespace Apllication.Controllers
         }
 
 
-
         [HttpPost("AddPalletsToJobOrder")]
         public async Task<IActionResult> AddPalletsToJobOrder([FromBody] AddPalletsToJobOrderDto dto)
         {
@@ -173,19 +175,21 @@ namespace Apllication.Controllers
             foreach (var palletId in dto.PalletIds)
             {
                 var pallet = await _palletService.GetByIdAsync(palletId);
-                if (pallet != null)
-                {
-                    pallet.JobOrderId = dto.JobOrderId;
-                    await _palletService.UpdateAsync(pallet);
-                }
-                else
-                {
-                    return NotFound("Invaild Pallet Id");
-                }
+                if (pallet == null)
+                    return NotFound($"Invalid Pallet Id: {palletId}");
+
+                pallet.JobOrderId = dto.JobOrderId;
+                await _palletService.UpdateAsync(pallet);
             }
 
-            return Ok("Pallets assigned to JobOrder successfully.");
+            var count = await _palletService.CountByJobOrderIdAsync(jobOrder.Id);
+            jobOrder.Quantity = count;
+
+            await _jobOrderService.UpdateAsync(jobOrder);
+
+            return Ok("Pallets assigned and job order quantity updated successfully.");
         }
+
 
 
         [HttpPost("RemovePalletFromJobOrder")]
@@ -205,7 +209,11 @@ namespace Apllication.Controllers
             pallet.JobOrderId = null;
             await _palletService.UpdateAsync(pallet);
 
-            return Ok("Pallet removed from JobOrder successfully.");
+            var count = await _palletService.CountByJobOrderIdAsync(dto.JobOrderId);
+            jobOrder.Quantity = count;
+            await _jobOrderService.UpdateAsync(jobOrder);
+
+            return Ok("Pallet removed and job order quantity updated successfully.");
         }
 
     }

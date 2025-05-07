@@ -18,5 +18,7 @@ namespace BLL.Services
         Task<Pallet> GetByIdAsync(int id);
         Task UpdateAsync(Pallet pallet);
         Task DeleteAsync(int id);
+        Task<int> CountByJobOrderIdAsync(int jobOrderId);
+
     }
 }

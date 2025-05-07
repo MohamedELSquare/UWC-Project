@@ -81,5 +81,12 @@ namespace BLL.Services
                 await _repository.SaveChangesAsync();
             }
         }
+
+
+        public async Task<int> CountByJobOrderIdAsync(int jobOrderId)
+        {
+            return await _palletRepository.CountByJobOrderIdAsync(jobOrderId);
+        }
+
     }
 }

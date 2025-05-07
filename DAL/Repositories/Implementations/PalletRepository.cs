@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DAL.Context;
+﻿using DAL.Context;
 using DAL.DTOs;
 using DAL.Models;
 using DAL.Repositories.Abstractions;
@@ -52,7 +47,7 @@ namespace DAL.Repositories.Implementations
                 .CountAsync();
 
             var assigned = await _context.Palletss
-                .Where(p =>  p.JobOrderId != null)
+                .Where(p => p.JobOrderId != null)
             .CountAsync();
 
             var unassigned = await _context.Palletss
@@ -82,8 +77,10 @@ namespace DAL.Repositories.Implementations
                 Repaired = repaired
             };
         }
-   
-        
-    
+
+        public async Task<int> CountByJobOrderIdAsync(int jobOrderId)
+        {
+            return await _context.Palletss.CountAsync(p => p.JobOrderId == jobOrderId);
+        }
     }
 }

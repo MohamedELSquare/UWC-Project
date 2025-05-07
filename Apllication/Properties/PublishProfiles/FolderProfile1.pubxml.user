@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\LENOVO\Downloads\uwc_2504_final\UWC\Apllication\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2025-04-24T23:34:09.1351633Z||;True|2025-04-25T01:39:13.1679382+03:00||;True|2025-04-25T01:16:49.9363571+03:00||;True|2025-04-25T00:58:20.8673407+03:00||;True|2025-04-25T00:55:51.0687655+03:00||;</History>
+    <_PublishTargetUrl>F:\Latest Version - Mohamed Ali\Only for push to github\UWC Verion 2\UWC\Apllication\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2025-05-07T06:23:36.3942438Z;True|2025-04-25T02:34:09.1351633+03:00;True|2025-04-25T01:39:13.1679382+03:00;True|2025-04-25T01:16:49.9363571+03:00;True|2025-04-24T23:58:20.8673407+02:00;True|2025-04-24T23:55:51.0687655+02:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

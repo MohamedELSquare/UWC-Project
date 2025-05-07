@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DAL.DTOs;
+﻿using DAL.DTOs;
 
 namespace DAL.Repositories.Abstractions
 {
@@ -12,6 +7,8 @@ namespace DAL.Repositories.Abstractions
         public Task<PalletStatusDto> GetPalletsPerStateAsync(int warehouseId);
 
         public Task<List<PalletsListDto>> GetPalletsList(int? warehouseId);
+
+        public Task<int> CountByJobOrderIdAsync(int jobOrderId);
 
     }
 }
