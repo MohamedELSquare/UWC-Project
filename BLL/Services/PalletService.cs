@@ -88,5 +88,9 @@ namespace BLL.Services
             return await _palletRepository.CountByJobOrderIdAsync(jobOrderId);
         }
 
+        public Task<List<PalletsListDto>> GetUnAssignedPalletsList()
+        {
+            return _palletRepository.GetUnAssignedPalletsList();
+        }
     }
 }

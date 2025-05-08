@@ -8,7 +8,7 @@ namespace BLL.Services
         public Task<PalletStatusDto> GetPalletsPerStateAsync(int warehouseId);
 
         public Task<List<PalletsListDto>> GetPalletsList(int? warehouseId);
-
+        Task<List<PalletsListDto>> GetUnAssignedPalletsList();
 
         // New
 

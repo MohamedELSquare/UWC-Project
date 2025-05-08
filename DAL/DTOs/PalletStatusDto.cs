@@ -14,5 +14,8 @@ namespace DAL.DTOs
         public int Normal {  get; set; }
         public int Damage { get; set; }
         public int Repaired { get; set; }
+        public int Lost { get; set; }
+        public int InCount { get; set; }
+        public int OutCount { get; set; }
     }
 }

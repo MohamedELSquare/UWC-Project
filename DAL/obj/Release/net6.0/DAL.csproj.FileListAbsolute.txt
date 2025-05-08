@@ -56,3 +56,18 @@ F:\Latest Version - Mohamed Ali\Only for push to github\UWC Verion 2\UWC\DAL\obj
 F:\Latest Version - Mohamed Ali\Only for push to github\UWC Verion 2\UWC\DAL\obj\Release\net6.0\DAL.pdb
 F:\Latest Version - Mohamed Ali\Only for push to github\UWC Verion 2\UWC\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
 F:\Latest Version - Mohamed Ali\Only for push to github\UWC Verion 2\UWC\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\bin\Release\net6.0\DAL.runtimeconfig.json
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.sourcelink.json
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
+C:\Users\UWC Latest Version\Latest Version\UWC-Project\DAL\obj\Release\net6.0\ref\DAL.dll

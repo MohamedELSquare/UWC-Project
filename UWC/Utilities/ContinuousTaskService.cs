@@ -60,7 +60,6 @@ namespace UWC.Utilities
                 {
                     var d = UHFAPI.uhfGetReceived();
                     if (d == null) continue;
-
                     if (d.Epc.Contains("E2806"))
                     {
                         var data = new Tag

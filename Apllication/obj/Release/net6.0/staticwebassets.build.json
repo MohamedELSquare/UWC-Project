@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "JzADHhFTE0pinMp+8HSZCz335d6SipGLtTSnizc8D2M=",
+  "Hash": "60+qPONGjG/9W8sGWwY9DS03jHbAc/22xvpfRy0q5UI=",
   "Source": "Apllication",
   "BasePath": "_content/Apllication",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

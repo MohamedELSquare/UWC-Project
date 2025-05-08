@@ -1,5 +1,727 @@
 [
   {
+    "ContainingType": "Apllication.Controllers.CustomersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.CustomersController",
+    "Method": "Create",
+    "RelativePath": "api/Customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDto",
+        "Type": "Apllication.RequestDtos.CustomerDtos.AddCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.CustomersController",
+    "Method": "Update",
+    "RelativePath": "api/Customers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDto",
+        "Type": "Apllication.RequestDtos.CustomerDtos.UpdateCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.CustomersController",
+    "Method": "DeleteWithCheck",
+    "RelativePath": "api/Customers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.CustomersController",
+    "Method": "GetAllDropDown",
+    "RelativePath": "api/Customers/DropDown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.CustomersController",
+    "Method": "GetById",
+    "RelativePath": "api/Customers/GetCustomerById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.CustomersController",
+    "Method": "DeleteOld",
+    "RelativePath": "api/Customers/OldDelete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.GatesController",
+    "Method": "Create",
+    "RelativePath": "api/Gates/CreateGate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gateDto",
+        "Type": "Apllication.RequestDtos.GateDtos.AddGateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.GatesController",
+    "Method": "Delete",
+    "RelativePath": "api/Gates/DeleteGate/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.GatesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Gates/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.GatesController",
+    "Method": "GetAllGates",
+    "RelativePath": "api/Gates/GetAllGates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.GatesController",
+    "Method": "GetById",
+    "RelativePath": "api/Gates/GetGateById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.GatesController",
+    "Method": "GetGatesByWarehouseId",
+    "RelativePath": "api/Gates/GetGatesByWarehouse/{warehouseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.GatesController",
+    "Method": "GetGatesDropDownList",
+    "RelativePath": "api/Gates/GetGatesDropDownList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.GatesController",
+    "Method": "Update",
+    "RelativePath": "api/Gates/UpdateGate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gateDto",
+        "Type": "Apllication.RequestDtos.GateDtos.UpdateGateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "AddPalletsToJobOrder",
+    "RelativePath": "api/JobOrders/AddPalletsToJobOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Apllication.RequestDtos.JobOrderDtos.AddPalletsToJobOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "Create",
+    "RelativePath": "api/JobOrders/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Apllication.RequestDtos.JobOrderDtos.AddJobOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "Delete",
+    "RelativePath": "api/JobOrders/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "GetAll",
+    "RelativePath": "api/JobOrders/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "GetById",
+    "RelativePath": "api/JobOrders/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "GetBySubCustomerId",
+    "RelativePath": "api/JobOrders/GetJobOrdersBySubCustomerId/{subCustomerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subCustomerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "GetAllUnPairdJopOrders",
+    "RelativePath": "api/JobOrders/GetJobOrdersWithPallets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "RemovePalletFromJobOrder",
+    "RelativePath": "api/JobOrders/RemovePalletFromJobOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Apllication.RequestDtos.JobOrderDtos.RemovePalletFromJobOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.JobOrdersController",
+    "Method": "Update",
+    "RelativePath": "api/JobOrders/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Apllication.RequestDtos.JobOrderDtos.UpdateJobOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "CreatePallet",
+    "RelativePath": "api/Pallets/CreatePallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "palletDto",
+        "Type": "Apllication.RequestDtos.PalletDtos.AddPalletDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "DeletePallet",
+    "RelativePath": "api/Pallets/DeletePallet/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GaetAllPalletsdPerState",
+    "RelativePath": "api/Pallets/GaetAllPalletsdPerState",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GetAllPallets",
+    "RelativePath": "api/Pallets/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GetPalletById",
+    "RelativePath": "api/Pallets/GetPalletById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GetPalletsByJobOrderId",
+    "RelativePath": "api/Pallets/GetPalletsByJobOrderId/{jobOrderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobOrderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GetPalletsByWarehouseId",
+    "RelativePath": "api/Pallets/GetPalletsByWarehouseId/{warehouseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GetPalletsList",
+    "RelativePath": "api/Pallets/GetPalletsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "GetUnAssignedPalletsList",
+    "RelativePath": "api/Pallets/GetUnAssignedPalletsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "UpdatePallet",
+    "RelativePath": "api/Pallets/UpdatePallet",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "palletDto",
+        "Type": "Apllication.RequestDtos.PalletDtos.UpdatePalletDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.PalletsController",
+    "Method": "UpdatePalletStatus",
+    "RelativePath": "api/Pallets/UpdatePalletStatus",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Apllication.RequestDtos.PalletDtos.UpdatePalletStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SubCustomersController",
+    "Method": "GetAll",
+    "RelativePath": "api/SubCustomers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SubCustomersController",
+    "Method": "Create",
+    "RelativePath": "api/SubCustomers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subCustomerDto",
+        "Type": "Apllication.RequestDtos.SubCustomerDtos.AddSubCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SubCustomersController",
+    "Method": "Update",
+    "RelativePath": "api/SubCustomers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subCustomerDto",
+        "Type": "Apllication.RequestDtos.SubCustomerDtos.UpdateSubCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SubCustomersController",
+    "Method": "Delete",
+    "RelativePath": "api/SubCustomers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SubCustomersController",
+    "Method": "GetAllDropDown",
+    "RelativePath": "api/SubCustomers/DropDown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SubCustomersController",
+    "Method": "GetByCustomerId",
+    "RelativePath": "api/SubCustomers/GetByCustomerId/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SubCustomersController",
+    "Method": "GetById",
+    "RelativePath": "api/SubCustomers/GetSubCustomerById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "Create",
+    "RelativePath": "api/Warehouses/CreateWarehouse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseDto",
+        "Type": "Apllication.RequestDtos.WarehouseDtos.AddWarehouseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "Delete",
+    "RelativePath": "api/Warehouses/DeleteWarehouse/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Warehouses/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "GetAllWarehouses",
+    "RelativePath": "api/Warehouses/GetAllWarehouses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "GetWarehousesByCustomerId",
+    "RelativePath": "api/Warehouses/GetWarehouseByCustomerId/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "GetById",
+    "RelativePath": "api/Warehouses/GetWarehouseById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "GetWarehouseDropDownList",
+    "RelativePath": "api/Warehouses/GetWarehouseDropDownList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.WarehousesController",
+    "Method": "Update",
+    "RelativePath": "api/Warehouses/UpdateWarehouse",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "warehouseDto",
+        "Type": "Apllication.RequestDtos.WarehouseDtos.UpdateWarehouseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Apllication.Controllers.SignalController",
     "Method": "Signal",
     "RelativePath": "Signal",
@@ -15,6 +737,43 @@
       {
         "Name": "MoveDetected",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SignalController",
+    "Method": "Signal2",
+    "RelativePath": "Signal2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MoveDetected",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Apllication.Controllers.SignalController",
+    "Method": "Status",
+    "RelativePath": "Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GateName",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

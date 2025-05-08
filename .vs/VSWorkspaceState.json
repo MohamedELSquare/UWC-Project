@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Apllication",
+    "\\Apllication\\Controllers"
   ],
-  "SelectedNode": "\\UWC.sln",
+  "SelectedNode": "\\Apllication\\Controllers\\WarehousesController.cs",
   "PreviewInSolutionExplorer": false
 }

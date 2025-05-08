@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "5VHiylrjo5al4pY3tFWS7F3oWkZ4wvmajOYc1+XBask=",
+  "Hash": "lAe255xqflWrV91iI+gg8P1tSbdWAciY+M9uBWwYgRo=",
   "Source": "UWC",
   "BasePath": "_content/UWC",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

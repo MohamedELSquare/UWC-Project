@@ -9,6 +9,7 @@ namespace DAL.Repositories.Abstractions
         public Task<List<PalletsListDto>> GetPalletsList(int? warehouseId);
 
         public Task<int> CountByJobOrderIdAsync(int jobOrderId);
+        Task<List<PalletsListDto>> GetUnAssignedPalletsList();
 
     }
 }

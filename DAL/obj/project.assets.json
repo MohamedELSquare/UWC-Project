@@ -2049,11 +2049,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\DAL\\DAL.csproj",
+      "projectUniqueName": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Version 3\\UWC-Project\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\DAL\\DAL.csproj",
+      "projectPath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Version 3\\UWC-Project\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
-      "outputPath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Verion 2\\UWC\\DAL\\obj\\",
+      "outputPath": "F:\\Latest Version - Mohamed Ali\\Only for push to github\\UWC Version 3\\UWC-Project\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

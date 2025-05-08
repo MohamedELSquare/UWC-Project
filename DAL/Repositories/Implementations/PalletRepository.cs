@@ -66,6 +66,17 @@ namespace DAL.Repositories.Implementations
                 .Where(p => p.Status == PalletStatus.Repaired)
                 .CountAsync();
 
+            var lost = await _context.Palletss
+                .Where(p => p.Status == PalletStatus.Lost)
+                .CountAsync();
+
+            var inCount = await _context.PalletTrackingHistories
+                .Where(v => v.WarehouseId == warehouseId && v.Direction == "In")
+                .CountAsync();
+
+            var outCount = await _context.PalletTrackingHistories
+                .Where(v => v.WarehouseId == warehouseId && v.Direction == "Out")
+                .CountAsync();
 
             return new PalletStatusDto
             {
@@ -74,7 +85,10 @@ namespace DAL.Repositories.Implementations
                 UnAssigned = unassigned,
                 Damage = damaged,
                 Normal = New,
-                Repaired = repaired
+                Repaired = repaired,
+                Lost = lost,
+                InCount = inCount,
+                OutCount = outCount
             };
         }
 
@@ -82,5 +96,27 @@ namespace DAL.Repositories.Implementations
         {
             return await _context.Palletss.CountAsync(p => p.JobOrderId == jobOrderId);
         }
+
+
+        public async Task<List<PalletsListDto>> GetUnAssignedPalletsList()
+        {
+            var query = _context.Palletss
+                .Where(p => p.JobOrderId == null)
+                .AsQueryable();
+
+
+            var result = await query
+                .Select(p => new PalletsListDto
+                {
+                    SerialNumber = p.Serial,
+                    UId = p.UID,
+                    Status = p.Status.ToString()
+                })
+                .ToListAsync();
+
+            return result;
+        }
+
+
     }
 }

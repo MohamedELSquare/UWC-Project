@@ -2,6 +2,7 @@
 using Apllication.RequestDtos.PalletDtos;
 using Apllication.ResponseDtos.PalletDtos;
 using BLL.Services;
+using DAL.DTOs;
 using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -67,6 +68,14 @@ namespace Apllication.Controllers
             return Ok(result);
         }
 
+        [HttpGet("GetUnAssignedPalletsList")]
+        public async Task<IActionResult> GetUnAssignedPalletsList()
+        {
+            var pallets = await _palletService.GetUnAssignedPalletsList();
+
+
+            return Ok(pallets);
+        }
 
         [HttpGet("GetPalletsByWarehouseId/{warehouseId}")]
         public async Task<IActionResult> GetPalletsByWarehouseId(int warehouseId)

@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "0GpQHpqT2It+rnOs6TQM9M694FHV5wvIofjF9vJfMo8=",
+  "Hash": "kc1ipHg7xNfWT01q01SjCtY7+k9zNJ4cBjF8lMzjTm0=",
   "Source": "Apllication",
   "BasePath": "_content/Apllication",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

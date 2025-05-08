@@ -1,5 +1,6 @@
 ﻿using DAL.Models;
 using DAL.Models.Difinitions;
+using DAL.Models.Views;
 using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Context
@@ -36,6 +37,9 @@ namespace DAL.Context
 
         #endregion
 
+        public DbSet<PalletTrackingHistory> PalletTrackingHistories { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -43,6 +47,10 @@ namespace DAL.Context
             modelBuilder.Entity<Pallet>()
                 .Property(p => p.Status)
                 .HasConversion<string>();
+            modelBuilder.Entity<PalletTrackingHistory>()
+                .HasNoKey()
+                .ToView("vw_PalletTrackingHistory", schema: "dbo");
+
         }
     }
 
